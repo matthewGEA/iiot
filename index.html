@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Public IIoT Catalog</title>
+    <meta property="og:title" content="Public IIoT Catalog" />
+    <meta property="og:description" content="A list of industrial products that help automate integration." />
+
+    <link rel="stylesheet" href="styles/reset.css" media="all" />
+    <link rel="stylesheet" href="styles/main.css" media="all" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="frame">
+        <h1>Public IIoT Catalog</h1>
+        <h2 class="mt-1 text-gray">A list of industrial products that help automate&nbsp;integration.</h2>
+      </div>
+      <div class="frame-extended mt-7">
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrgPocs4JcyKwZtL?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      </div>
+      <div class="frame-extended">
+        <p class="image-row mt-7">
+          <img class="img-model" src="images/IIoTModel.jpg" alt="IIoT Model" />
+          <img class="img-stack" src="images/ApplicationStack.jpg" alt="Application Stack" />
+        </p>
+      </div>
+       <div class="frame">
+        <div class="main-text mt-6 md-mt-7">
+          <h3>Minimum Criteria for Product Submissions:</h3>
+
+          <ol>
+            <li>Product must have literature accessible at submitted URL without registration that validates the submission.</li>
+            <li>Product must support a well-known information scheme, as listed in the submission form.  If your information scheme is not included in the selection list, select "other" and enter the missing scheme for consideration.</li>
+            <li>Product must support a well-known communication protocol, as listed in the submission form.  If your communicaiton protocol is not included in the selection list, select "other" and enter the missing protocol for consideration.</li>
+            <li>Supporting <a href="https://reference.opcfoundation.org/v105/Core/docs/Part8/4/">OPC-UA Data Access</a> alone is not sufficient for this catalog. Despite Data Access having wide adoption and providing a level of data readability, this benefit does not provide sufficient automation of integration.</li>
+            <li>Supporting MQTT alone is not sufficient for this catalog. While MQTT automation integration by transporting data in a scalable way, this benefit is offset by the manual integration required to parse out custom information models when not using a well-known encoding and information scheme.</li>
+          </ol>
+
+          <p>
+            <a class="button" href="https://airtable.com/shr4KRGBc6XzWoK9F">Submit a Product</a>
+          </p>
+        </div>
+      </div>
+
+
+    </main>
+  </body>
+</html>
