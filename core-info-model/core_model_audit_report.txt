@@ -1,0 +1,266 @@
+CORE INFORMATION MODEL - AUDIT REPORT
+============================================================
+
+Summary:
+  Total type nodes found:       733
+  Excluded type nodes:          509
+  Primary seed types:           224
+  Final included nodes:         595
+  Total stages executed:        2
+
+Stage metrics:
+  Stage  1: total=541, primary=228, composible=313, non=0
+  Stage  2: total=54, primary=0, composible=44, non=10
+
+Categories in PRIMARY TYPES:
+     54  Base Info Base Types
+     16  Base Info Spatial Data
+     12  Base Info Finite State Machine Instance
+      7  Data Access Quantities Base
+      6  Address Space DataTypeDefinition Attribute
+      5  Base Info Image DataTypes
+      5  Base Info DataTypeRefinement
+      5  Base Info Choice States
+      4  Base Info SubtypeRestriction
+      4  Program Basic
+      4  LogObject Base
+      3  Base Info State Machine Instance
+      3  Base Info Rational Number
+      3  Address Space Dictionary Entries
+      3  Data Access Alternative Units
+      3  Base Info Date DataTypes
+      2  Address Space Events 2
+      2  Address Space Method Meta Data
+      2  Base Info Audio Type
+      2  Base Info OptionSet DataType
+      2  Base Info TemporaryFileTransferType Base
+      2  Address Space Interfaces
+      2  Base Info OrderedList
+      2  Data Access ArrayItem2Type
+      2  Data Access XYArrayItemType
+      2  Data Access MultiStateDictionaryEntryDBT
+      2  LogObject TraceContext
+      1  Base Info Decimal DataType
+      1  Address Space Source Hierarchy
+      1  Address Space Notifier Hierarchy
+      1  Base Info HasOrderedComponent
+      1  Base Info Subvariables of Structures
+      1  Base Info AssociatedWith
+      1  Base Info HasKeyValueDescription
+      1  Base Info UriString
+      1  Base Info FileType Base
+      1  Address Space Events
+      1  Base Info OptionSet
+      1  Base Info Selection List
+      1  Base Info BitFieldMaskDataType
+      1  Base Info SemanticVersionString
+      1  Base Info KeyValuePair
+      1  Base Info Handle DataType
+      1  Base Info TrimmedString
+      1  Base Info Available States and Transitions
+      1  Base Info FileDirectoryType Base
+      1  Address Space Dictionary IRDI
+      1  Address Space Dictionary URI
+      1  Address Space AddIn Reference
+      1  Base Info Currency
+      1  Data Access DataItems
+      1  Base Info NumberRange DataType
+      1  Data Access BaseAnalogType
+      1  Data Access AnalogItemType
+      1  Data Access AnalogNumberItemType
+      1  Data Access AnalogUnitType
+      1  Data Access AnalogUnitRangeType
+      1  Data Access AnalogNumberUnitRangeType
+      1  Data Access DiscreteItemType
+      1  Data Access TwoState
+      1  Data Access MultiState
+      1  Data Access MultiStateValueDiscrete
+      1  Data Access YArrayItemType
+      1  Data Access ImageItemType
+      1  Data Access CubeItemType
+      1  Data Access NDimensionArrayItemType
+      1  Data Access Quantity Syntax Reference
+      1  Aggregate Master Configuration
+      1  Data Access ValueAsDictionaryEntries Property
+      1  Base Info IsExecutableOn
+      1  Base Info Controls
+      1  Base Info Utilizes
+      1  Base Info IsExecutingOn
+      1  Base Info Requires
+      1  Base Info IsPhysicallyConnectedTo
+      1  Base Info RepresentsSameEntityAs
+      1  Base Info RepresentsSameHardwareAs
+      1  Base Info RepresentsSameFunctionalityAs
+      1  Base Info IsHostedBy
+      1  Base Info HasPhysicalComponent
+      1  Base Info HasContainedComponent
+      1  Base Info HasAttachedComponent
+      1  LogObject AdditionalData
+      1  LogObject BaseEvent
+      1  LogObject Overflow
+      1  Base Info Method Argument DataType
+      1  Base Info NormalizedString DataType
+      1  Base Info DecimalString DataType
+      1  Base Info LocalTime
+      1  Base Info Range DataType
+      1  Base Info EUInformation
+      1  Data Access Complex Number
+      1  Data Access DoubleComplex Number
+      1  Data Access AxisInformationType
+
+Categories EXCLUDED:
+     56  (no category)
+     43  Base Info ServerType
+     35  PubSub Model Base
+     29  Push Model for Global Certificate and TrustList Management
+     26  GDS Certificate Manager Pull Model
+     23  Auditing Connections
+     12  PubSub Parameters Discovery
+     12  BNM IEEE LLDP Info
+     11  PubSub Parameters Discovery Extended
+     10  Auditing NodeManagement
+      9  A & C ConditionClasses
+      8  PubSub Model Diagnostics
+      7  BNM TSN Base Info
+      6  A & C Basic
+      6  Base Configuration Management
+      6  Server Endpoint Management
+      6  Base Info UaBinary File
+      6  PubSub Parameters UADP
+      6  BNM TSN Config
+      5  Redundancy Server
+      5  A & C Suppression Group
+      5  PubSub Parameters PublishedDataSet Action
+      5  PubSub Parameters JSON
+      5  PubSub Parameters QoS
+      5  PubSub Parameters Datagram
+      5  PubSub Parameters Broker
+      5  BNM Ethernet Base Info
+      4  Historical Access Events
+      4  Push Model for KeyCredential Service
+      4  PubSub Parameters PublishedDataSet
+      4  PubSub Model Broker
+      4  AliasName Base
+      4  Security User Management Server
+      3  Historical Access Aggregates
+      3  Auditing History Services
+      3  Auditing Write
+      3  A & C Exclusive Limit
+      3  A & C Auditing
+      3  A & C Refresh
+      3  A & C Refresh2
+      3  Authorization Service Configuration Server
+      3  PubSub Parameters SubscribedDataSet
+      3  PubSub Parameters Configuration2
+      3  PubSub Model SKS
+      3  PubSub Model SKS Push
+      3  PubSub Model UADP
+      3  PubSub Model JSON
+      3  PubSub Model Datagram
+      3  BNM Priority Mapping 2
+      3  Historical Access Modified Events
+      2  Historical Access Read Raw
+      2  Historical Access Time Instance
+      2  Redundancy Server Transparent
+      2  Auditing Method
+      2  Base Info Device Failure
+      2  Base Info System Status Underlying System
+      2  Base Info System Status
+      2  Base Info Model Change General
+      2  Base Info SemanticChange
+      2  Base Info Client Events
+      2  A & C First in Group Alarm
+      2  A & C Non-Exclusive Limit
+      2  A & C Statemachine Suppression Trigger
+      2  A & C Alarm Metrics
+      2  A & C Summary
+      2  Historical Access Exception Storage
+      2  Server PushManagement Transactions
+      2  Managed Application Configuration
+      2  Base Info Portable IDs
+      2  PubSub Parameters SubscribedDataSet Standalone
+      2  PubSub Model SubscribedDataSet Standalone
+      2  PubSub Model Diagnostics Events
+      2  AliasName PubSub Notification
+      2  BNM AutoNeg
+      2  BNM IETF Interface Base Info
+      2  ObjectSerialization Base
+      2  Security Role Server Base 2
+      1  Auditing Method Output
+      1  Base Info Model Change
+      1  Base Info EventQueueOverflow EventType
+      1  Base Info Progress Events
+      1  Base Info Deprecated Information
+      1  Auditing Base
+      1  Security Role Server Base Eventing
+      1  A & C Dialog
+      1  A & C Acknowledge
+      1  A & C Alarm
+      1  A & C Shelving
+      1  A & C Non-Exclusive Level
+      1  A & C Exclusive Level
+      1  A & C Non-Exclusive Deviation
+      1  A & C Non-Exclusive RateOfChange
+      1  A & C Exclusive Deviation
+      1  A & C Exclusive RateOfChange
+      1  A & C Discrete
+      1  A & C OffNormal
+      1  A & C SystemOffNormal
+      1  A & C Trip
+      1  A & C InstrumentDiagnostic
+      1  A & C SystemDiagnostic
+      1  A & C CertificateExpiration
+      1  A & C Discrepancy
+      1  A & C Dialog Auditing
+      1  A & C Acknowledge Auditing
+      1  A & C Confirm Auditing
+      1  A & C Shelving Auditing
+      1  A & C Suppression Auditing
+      1  A & C Silencing Auditing
+      1  A & C Latching Auditing
+      1  A & C OutOfService Auditing
+      1  A & C StateMachine Trigger
+      1  A & C Statemachine Trigger
+      1  Program Auditing
+      1  Historical Access Periodic Storage
+      1  Historical Access Default HistoricalData Configuration
+      1  Historical Access Archive Period
+      1  Historical Access External Event Source
+      1  Historical Access HasCurrentData
+      1  Historical Access HasCurrentEvent
+      1  Historical Access Event Audit Events
+      1  Historical Access Data Audit Events
+      1  Historical Access Annotation Audit Events
+      1  Historical Access Delete Raw Audit Events
+      1  Historical Access Audit Delete Raw
+      1  Historical Access Audit Delete At Time
+      1  Historical Access Audit Delete Events
+      1  Historical Access Audit Configuration Change Events
+      1  Historical Access Audit BulkInsert Events
+      1  Application Configuration Management
+      1  Pull Model for KeyCredential Service
+      1  PubSub Parameters PublishedDataSet Events
+      1  PubSub Parameters PublishedDataSet Custom
+      1  PubSub Parameters SubscribedDataSet Mirror
+      1  PubSub Parameters Configuration
+      1  PubSub Parameters Datagram DTLS
+      1  PubSub Model PublishedDataSet
+      1  PubSub Model PublishedDataSet Events
+      1  PubSub Model SubscribedDataSet
+      1  PubSub Model SubscribedDataSet Mirror
+      1  PubSub Model Status Event
+      1  AliasName FindAliasVerbose
+      1  Onboarding Ticket Reader
+      1  Onboarding Server PushManagement
+      1  BNM VLAN Capabilities
+      1  BNM IETF Interface Vlan Info
+      1  BNM Priority Mapping
+      1  LogObject BaseEvent
+      1  Base Info ContentFilter
+      1  Historical Access Modified Values
+      1  Historical Access Insert Value
+      1  Historical Access Delete Value
+      1  Historical Access Update Value
+      1  Historical Access Replace Value
+      1  Base Info StatusResult DataType
+      1  Historical Access Annotations
