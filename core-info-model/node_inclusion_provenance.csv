@@ -1,0 +1,596 @@
+stage,reason,node_id,browse_name,category,lines,source_node_id,source_browse_name,source_category
+1,primary,i=1,Boolean,Base Info Base Types,9,,,
+1,primary,i=10,Float,Base Info Base Types,9,,,
+1,primary,i=100,EnumDefinition,Address Space DataTypeDefinition Attribute,12,,,
+1,primary,i=101,StructureField,Address Space DataTypeDefinition Attribute,18,,,
+1,primary,i=102,EnumField,Address Space DataTypeDefinition Attribute,12,,,
+1,primary,i=11,Double,Base Info Base Types,9,,,
+1,primary,i=11187,AggregateConfigurationType,Aggregate Master Configuration,13,,,
+1,composible,i=11188,TreatUncertainAsBad,,9,i=11187,AggregateConfigurationType,Aggregate Master Configuration
+1,composible,i=11189,PercentDataBad,,9,i=11187,AggregateConfigurationType,Aggregate Master Configuration
+1,composible,i=11190,PercentDataGood,,9,i=11187,AggregateConfigurationType,Aggregate Master Configuration
+1,composible,i=11191,UseSlopedExtrapolation,,9,i=11187,AggregateConfigurationType,Aggregate Master Configuration
+1,primary,i=11238,MultiStateValueDiscreteType,Data Access MultiStateValueDiscrete,11,,,
+1,composible,i=11241,EnumValues,,9,i=11238,MultiStateValueDiscreteType,Data Access MultiStateValueDiscrete
+1,composible,i=11456,EffectiveTransitionTime,,9,i=2762,TransitionVariableType,Base Info State Machine Instance
+1,composible,i=11461,ValueAsText,,9,i=11238,MultiStateValueDiscreteType,Data Access MultiStateValueDiscrete
+1,primary,i=11487,OptionSetType,Base Info OptionSet,11,,,
+1,composible,i=11488,OptionSetValues,,9,i=11487,OptionSetType,Base Info OptionSet
+1,primary,i=11508,OptionalPlaceholder,Base Info Base Types,9,,,
+1,primary,i=11510,MandatoryPlaceholder,Base Info Base Types,9,,,
+1,primary,i=11575,FileType,Base Info FileType Base,22,,,
+1,composible,i=11576,Size,,9,i=11575,FileType,Base Info FileType Base
+1,composible,i=11579,OpenCount,,9,i=11575,FileType,Base Info FileType Base
+1,composible,i=11580,Open,Base Info FileType Base,12,i=11575,FileType,Base Info FileType Base
+1,composible,i=11581,InputArguments,,28,i=11580,Open,Base Info FileType Base
+1,composible,i=11582,OutputArguments,,28,i=11580,Open,Base Info FileType Base
+1,composible,i=11583,Close,Base Info FileType Base,11,i=11575,FileType,Base Info FileType Base
+1,composible,i=11584,InputArguments,,28,i=11583,Close,Base Info FileType Base
+1,composible,i=11585,Read,Base Info FileType Base,12,i=11575,FileType,Base Info FileType Base
+1,composible,i=11586,InputArguments,,43,i=11585,Read,Base Info FileType Base
+1,composible,i=11587,OutputArguments,,28,i=11585,Read,Base Info FileType Base
+1,composible,i=11588,Write,Base Info FileType Base,11,i=11575,FileType,Base Info FileType Base
+1,composible,i=11589,InputArguments,,43,i=11588,Write,Base Info FileType Base
+1,composible,i=11590,GetPosition,Base Info FileType Base,12,i=11575,FileType,Base Info FileType Base
+1,composible,i=11591,InputArguments,,28,i=11590,GetPosition,Base Info FileType Base
+1,composible,i=11592,OutputArguments,,28,i=11590,GetPosition,Base Info FileType Base
+1,composible,i=11593,SetPosition,Base Info FileType Base,11,i=11575,FileType,Base Info FileType Base
+1,composible,i=11594,InputArguments,,43,i=11593,SetPosition,Base Info FileType Base
+1,primary,i=117,HasSubStateMachine,Base Info Finite State Machine Instance,10,,,
+1,composible,i=11701,BitMask,,9,i=11487,OptionSetType,Base Info OptionSet
+1,primary,i=11737,BitFieldMaskDataType,Base Info BitFieldMaskDataType,9,,,
+1,composible,i=11878,EnumValues,,156,i=257,NodeClass,Base Info Base Types
+1,primary,i=12,String,Base Info Base Types,9,,,
+1,primary,i=12021,ArrayItemType,Data Access ArrayItem2Type,14,,,
+1,composible,i=12024,InstrumentRange,,9,i=12021,ArrayItemType,Data Access ArrayItem2Type
+1,composible,i=12025,EURange,,9,i=12021,ArrayItemType,Data Access ArrayItem2Type
+1,composible,i=12026,EngineeringUnits,,9,i=12021,ArrayItemType,Data Access ArrayItem2Type
+1,composible,i=12027,Title,,9,i=12021,ArrayItemType,Data Access ArrayItem2Type
+1,composible,i=12028,AxisScaleType,,9,i=12021,ArrayItemType,Data Access ArrayItem2Type
+1,primary,i=12029,YArrayItemType,Data Access YArrayItemType,10,,,
+1,composible,i=12037,XAxisDefinition,,9,i=12029,YArrayItemType,Data Access YArrayItemType
+1,primary,i=12038,XYArrayItemType,Data Access XYArrayItemType,10,,,
+1,composible,i=12046,XAxisDefinition,,9,i=12038,XYArrayItemType,Data Access XYArrayItemType
+1,primary,i=12047,ImageItemType,Data Access ImageItemType,11,,,
+1,composible,i=12055,XAxisDefinition,,9,i=12047,ImageItemType,Data Access ImageItemType
+1,composible,i=12056,YAxisDefinition,,9,i=12047,ImageItemType,Data Access ImageItemType
+1,primary,i=12057,CubeItemType,Data Access CubeItemType,12,,,
+1,composible,i=12065,XAxisDefinition,,9,i=12057,CubeItemType,Data Access CubeItemType
+1,composible,i=12066,YAxisDefinition,,9,i=12057,CubeItemType,Data Access CubeItemType
+1,composible,i=12067,ZAxisDefinition,,9,i=12057,CubeItemType,Data Access CubeItemType
+1,primary,i=12068,NDimensionArrayItemType,Data Access NDimensionArrayItemType,10,,,
+1,composible,i=12076,AxisDefinition,,9,i=12068,NDimensionArrayItemType,Data Access NDimensionArrayItemType
+1,primary,i=12077,AxisScaleEnumeration,Data Access ArrayItem2Type,15,,,
+1,composible,i=12078,EnumStrings,,21,i=12077,AxisScaleEnumeration,Data Access ArrayItem2Type
+1,primary,i=12079,AxisInformation,Data Access AxisInformationType,16,,,
+1,primary,i=12080,XVType,Data Access XYArrayItemType,13,,,
+1,primary,i=12171,ComplexNumberType,Data Access Complex Number,13,,,
+1,primary,i=12172,DoubleComplexNumberType,Data Access DoubleComplex Number,13,,,
+1,composible,i=12686,Writable,,9,i=11575,FileType,Base Info FileType Base
+1,composible,i=12687,UserWritable,,9,i=11575,FileType,Base Info FileType Base
+1,primary,i=12755,OptionSet,Base Info OptionSet DataType,13,,,
+1,primary,i=12756,Union,Base Info OptionSet DataType,10,,,
+1,primary,i=12877,NormalizedString,Base Info NormalizedString DataType,9,,,
+1,primary,i=12878,DecimalString,Base Info DecimalString DataType,9,,,
+1,primary,i=12879,DurationString,Base Info Date DataTypes,9,,,
+1,primary,i=12880,TimeString,Base Info Date DataTypes,9,,,
+1,primary,i=12881,DateString,Base Info Date DataTypes,9,,,
+1,primary,i=129,HasArgumentDescription,Address Space Method Meta Data,10,,,
+1,primary,i=13,DateTime,Base Info Base Types,9,,,
+1,primary,i=131,HasOptionalInputArgumentDescription,Address Space Method Meta Data,10,,,
+1,composible,i=13341,MimeType,,9,i=11575,FileType,Base Info FileType Base
+1,primary,i=13353,FileDirectoryType,Base Info FileDirectoryType Base,15,,,
+1,composible,i=13387,CreateDirectory,Base Info FileDirectoryType Base,12,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+1,composible,i=13388,InputArguments,,28,i=13387,CreateDirectory,Base Info FileDirectoryType Base
+1,composible,i=13389,OutputArguments,,28,i=13387,CreateDirectory,Base Info FileDirectoryType Base
+1,composible,i=13390,CreateFile,Base Info FileDirectoryType Base,12,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+1,composible,i=13391,InputArguments,,43,i=13390,CreateFile,Base Info FileDirectoryType Base
+1,composible,i=13392,OutputArguments,,43,i=13390,CreateFile,Base Info FileDirectoryType Base
+1,composible,i=13393,Delete,Base Info FileDirectoryType Base,11,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+1,composible,i=13394,InputArguments,,28,i=13393,Delete,Base Info FileDirectoryType Base
+1,composible,i=13395,MoveOrCopy,Base Info FileDirectoryType Base,12,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+1,composible,i=13396,InputArguments,,73,i=13395,MoveOrCopy,Base Info FileDirectoryType Base
+1,composible,i=13397,OutputArguments,,28,i=13395,MoveOrCopy,Base Info FileDirectoryType Base
+1,primary,i=14,Guid,Base Info Base Types,9,,,
+1,composible,i=14528,EnumStrings,,27,i=98,StructureType,Address Space DataTypeDefinition Attribute
+1,primary,i=14533,KeyValuePair,Base Info KeyValuePair,13,,,
+1,primary,i=15,ByteString,Base Info Base Types,9,,,
+1,composible,i=15038,LastMethodInputValues,,9,i=2399,ProgramDiagnostic,
+1,composible,i=15040,LastMethodOutputValues,,9,i=2399,ProgramDiagnostic,
+1,primary,i=15109,ChoiceStateType,Base Info Choice States,9,,,
+1,primary,i=15112,HasGuard,Base Info Choice States,10,,,
+1,primary,i=15113,GuardVariableType,Base Info Choice States,9,,,
+1,primary,i=15128,ExpressionGuardVariableType,Base Info Choice States,10,,,
+1,composible,i=15129,Expression,,9,i=15128,ExpressionGuardVariableType,Base Info Choice States
+1,primary,i=15317,ElseGuardVariableType,Base Info Choice States,9,,,
+1,primary,i=15318,BaseAnalogType,Data Access BaseAnalogType,14,,,
+1,primary,i=15383,ProgramDiagnostic2Type,Program Basic,21,,,
+1,composible,i=15384,CreateSessionId,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15385,CreateClientName,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15386,InvocationCreationTime,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15387,LastTransitionTime,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15388,LastMethodCall,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15389,LastMethodSessionId,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15390,LastMethodInputArguments,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15391,LastMethodOutputArguments,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15392,LastMethodInputValues,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15393,LastMethodOutputValues,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15394,LastMethodCallTime,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,composible,i=15395,LastMethodReturnStatus,,9,i=15383,ProgramDiagnostic2Type,Program Basic
+1,primary,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base,14,,,
+1,composible,i=15745,ClientProcessingTimeout,,9,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base
+1,composible,i=15746,GenerateFileForRead,Base Info TemporaryFileTransferType Base,12,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base
+1,composible,i=15747,InputArguments,,28,i=15746,GenerateFileForRead,Base Info TemporaryFileTransferType Base
+1,composible,i=15748,OutputArguments,,58,i=15746,GenerateFileForRead,Base Info TemporaryFileTransferType Base
+1,composible,i=15749,GenerateFileForWrite,Base Info TemporaryFileTransferType Base,12,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base
+1,composible,i=15750,OutputArguments,,43,i=15749,GenerateFileForWrite,Base Info TemporaryFileTransferType Base
+1,composible,i=15751,CloseAndCommit,Base Info TemporaryFileTransferType Base,12,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base
+1,composible,i=15752,InputArguments,,28,i=15751,CloseAndCommit,Base Info TemporaryFileTransferType Base
+1,composible,i=15753,OutputArguments,,28,i=15751,CloseAndCommit,Base Info TemporaryFileTransferType Base
+1,composible,i=15754,<TransferState>,,11,i=15744,TemporaryFileTransferType,Base Info TemporaryFileTransferType Base
+1,composible,i=15755,CurrentState,,10,i=15754,<TransferState>,
+1,composible,i=15756,Id,,9,i=15755,CurrentState,
+1,composible,i=15794,Reset,,8,i=15754,<TransferState>,
+1,primary,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base,24,,,
+1,composible,i=15815,Idle,,14,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15816,StateNumber,,12,i=15815,Idle,
+1,composible,i=15817,ReadPrepare,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15818,StateNumber,,12,i=15817,ReadPrepare,
+1,composible,i=15819,ReadTransfer,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15820,StateNumber,,12,i=15819,ReadTransfer,
+1,composible,i=15821,ApplyWrite,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15822,StateNumber,,12,i=15821,ApplyWrite,
+1,composible,i=15823,Error,,13,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15824,StateNumber,,12,i=15823,Error,
+1,composible,i=15825,IdleToReadPrepare,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15826,TransitionNumber,,12,i=15825,IdleToReadPrepare,
+1,composible,i=15827,ReadPrepareToReadTransfer,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15828,TransitionNumber,,12,i=15827,ReadPrepareToReadTransfer,
+1,composible,i=15829,ReadTransferToIdle,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15830,TransitionNumber,,12,i=15829,ReadTransferToIdle,
+1,composible,i=15831,IdleToApplyWrite,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15832,TransitionNumber,,12,i=15831,IdleToApplyWrite,
+1,composible,i=15833,ApplyWriteToIdle,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15834,TransitionNumber,,12,i=15833,ApplyWriteToIdle,
+1,composible,i=15835,ReadPrepareToError,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15836,TransitionNumber,,12,i=15835,ReadPrepareToError,
+1,composible,i=15837,ReadTransferToError,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15838,TransitionNumber,,12,i=15837,ReadTransferToError,
+1,composible,i=15839,ApplyWriteToError,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15840,TransitionNumber,,12,i=15839,ApplyWriteToError,
+1,composible,i=15841,ErrorToIdle,,12,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,composible,i=15842,TransitionNumber,,12,i=15841,ErrorToIdle,
+1,composible,i=15843,Reset,Base Info TemporaryFileTransferType Base,10,i=15803,FileTransferStateMachineType,Base Info TemporaryFileTransferType Base
+1,primary,i=16,XmlElement,Base Info Base Types,9,,,
+1,primary,i=16307,AudioDataType,Base Info Audio Type,9,,,
+1,primary,i=16309,SelectionListType,Base Info Selection List,12,,,
+1,composible,i=16312,RestrictToList,,9,i=16309,SelectionListType,Base Info Selection List
+1,composible,i=16359,InputArguments,,28,i=15749,GenerateFileForWrite,Base Info TemporaryFileTransferType Base
+1,primary,i=17,NodeId,Base Info Base Types,9,,,
+1,primary,i=17497,AnalogUnitType,Data Access AnalogUnitType,10,,,
+1,composible,i=17502,EngineeringUnits,,9,i=17497,AnalogUnitType,Data Access AnalogUnitType
+1,composible,i=17567,InstrumentRange,,9,i=15318,BaseAnalogType,Data Access BaseAnalogType
+1,composible,i=17568,EURange,,9,i=15318,BaseAnalogType,Data Access BaseAnalogType
+1,composible,i=17569,EngineeringUnits,,9,i=15318,BaseAnalogType,Data Access BaseAnalogType
+1,primary,i=17570,AnalogUnitRangeType,Data Access AnalogUnitRangeType,10,,,
+1,composible,i=17575,EngineeringUnits,,9,i=17570,AnalogUnitRangeType,Data Access AnalogUnitRangeType
+1,primary,i=17589,DictionaryEntryType,Address Space Dictionary Entries,10,,,
+1,composible,i=17590,<DictionaryEntryName>,,9,i=17589,DictionaryEntryType,Address Space Dictionary Entries
+1,primary,i=17591,DictionaryFolderType,Address Space Dictionary Entries,11,,,
+1,composible,i=17592,<DictionaryFolderName>,,9,i=17591,DictionaryFolderType,Address Space Dictionary Entries
+1,composible,i=17593,<DictionaryEntryName>,,9,i=17591,DictionaryFolderType,Address Space Dictionary Entries
+1,primary,i=17597,HasDictionaryEntry,Address Space Dictionary Entries,10,,,
+1,primary,i=17598,IrdiDictionaryEntryType,Address Space Dictionary IRDI,9,,,
+1,primary,i=17600,UriDictionaryEntryType,Address Space Dictionary URI,9,,,
+1,primary,i=17602,BaseInterfaceType,Address Space Interfaces,9,,,
+1,primary,i=17603,HasInterface,Address Space Interfaces,10,,,
+1,primary,i=17604,HasAddIn,Address Space AddIn Reference,10,,,
+1,composible,i=17632,Selections,,9,i=16309,SelectionListType,Base Info Selection List
+1,composible,i=17633,SelectionDescriptions,,9,i=16309,SelectionListType,Base Info Selection List
+1,composible,i=17635,AvailableStates,,9,i=2771,FiniteStateMachineType,Base Info Finite State Machine Instance | Base Info Available States and Transitions
+1,composible,i=17636,AvailableTransitions,,9,i=2771,FiniteStateMachineType,Base Info Finite State Machine Instance | Base Info Available States and Transitions
+1,primary,i=17709,RationalNumberType,Base Info Rational Number,11,,,
+1,composible,i=17712,Numerator,,9,i=17709,RationalNumberType,Base Info Rational Number
+1,composible,i=17713,Denominator,,9,i=17709,RationalNumberType,Base Info Rational Number
+1,primary,i=17714,VectorType,Base Info Spatial Data,10,,,
+1,composible,i=17715,VectorUnit,,9,i=17714,VectorType,Base Info Spatial Data
+1,primary,i=17716,3DVectorType,Base Info Spatial Data,12,,,
+1,primary,i=17986,AudioVariableType,Base Info Audio Type,12,,,
+1,composible,i=17988,ListId,,9,i=17986,AudioVariableType,Base Info Audio Type
+1,composible,i=17989,AgencyId,,9,i=17986,AudioVariableType,Base Info Audio Type
+1,composible,i=17990,VersionId,,9,i=17986,AudioVariableType,Base Info Audio Type
+1,primary,i=18,ExpandedNodeId,Base Info Base Types,9,,,
+1,composible,i=18769,X,,9,i=17716,3DVectorType,Base Info Spatial Data
+1,composible,i=18770,Y,,9,i=17716,3DVectorType,Base Info Spatial Data
+1,composible,i=18771,Z,,9,i=17716,3DVectorType,Base Info Spatial Data
+1,primary,i=18772,CartesianCoordinatesType,Base Info Spatial Data,10,,,
+1,composible,i=18773,LengthUnit,,9,i=18772,CartesianCoordinatesType,Base Info Spatial Data
+1,primary,i=18774,3DCartesianCoordinatesType,Base Info Spatial Data,12,,,
+1,composible,i=18776,X,,9,i=18774,3DCartesianCoordinatesType,Base Info Spatial Data
+1,composible,i=18777,Y,,9,i=18774,3DCartesianCoordinatesType,Base Info Spatial Data
+1,composible,i=18778,Z,,9,i=18774,3DCartesianCoordinatesType,Base Info Spatial Data
+1,primary,i=18779,OrientationType,Base Info Spatial Data,10,,,
+1,composible,i=18780,AngleUnit,,9,i=18779,OrientationType,Base Info Spatial Data
+1,primary,i=18781,3DOrientationType,Base Info Spatial Data,12,,,
+1,composible,i=18783,A,,9,i=18781,3DOrientationType,Base Info Spatial Data
+1,composible,i=18784,B,,9,i=18781,3DOrientationType,Base Info Spatial Data
+1,composible,i=18785,C,,9,i=18781,3DOrientationType,Base Info Spatial Data
+1,primary,i=18786,FrameType,Base Info Spatial Data,14,,,
+1,composible,i=18787,Orientation,,9,i=18786,FrameType,Base Info Spatial Data
+1,composible,i=18788,Constant,,9,i=18786,FrameType,Base Info Spatial Data
+1,composible,i=18789,BaseFrame,,9,i=18786,FrameType,Base Info Spatial Data
+1,composible,i=18790,FixedBase,,9,i=18786,FrameType,Base Info Spatial Data
+1,primary,i=18791,3DFrameType,Base Info Spatial Data,11,,,
+1,composible,i=18792,Orientation,,12,i=18791,3DFrameType,Base Info Spatial Data
+1,composible,i=18796,CartesianCoordinates,,12,i=18791,3DFrameType,Base Info Spatial Data
+1,composible,i=18798,X,,9,i=18796,CartesianCoordinates,
+1,composible,i=18799,Y,,9,i=18796,CartesianCoordinates,
+1,composible,i=18800,Z,,9,i=18796,CartesianCoordinates,
+1,composible,i=18801,CartesianCoordinates,,9,i=18786,FrameType,Base Info Spatial Data
+1,primary,i=18806,RationalNumber,Base Info Rational Number,13,,,
+1,primary,i=18807,Vector,Base Info Spatial Data,10,,,
+1,primary,i=18808,3DVector,Base Info Spatial Data,14,,,
+1,primary,i=18809,CartesianCoordinates,Base Info Spatial Data,10,,,
+1,primary,i=18810,3DCartesianCoordinates,Base Info Spatial Data,14,,,
+1,primary,i=18811,Orientation,Base Info Spatial Data,10,,,
+1,primary,i=18812,3DOrientation,Base Info Spatial Data,14,,,
+1,primary,i=18813,Frame,Base Info Spatial Data,10,,,
+1,primary,i=18814,3DFrame,Base Info Spatial Data,13,,,
+1,primary,i=19,StatusCode,Base Info Base Types,9,,,
+1,composible,i=19074,A,,9,i=18792,Orientation,
+1,composible,i=19075,B,,9,i=18792,Orientation,
+1,composible,i=19076,C,,9,i=18792,Orientation,
+1,primary,i=19077,MultiStateDictionaryEntryDiscreteBaseType,Data Access MultiStateDictionaryEntryDBT | Data Access ValueAsDictionaryEntries Property,12,,,
+1,composible,i=19082,EnumDictionaryEntries,,9,i=19077,MultiStateDictionaryEntryDiscreteBaseType,Data Access MultiStateDictionaryEntryDBT | Data Access ValueAsDictionaryEntries Property
+1,composible,i=19083,ValueAsDictionaryEntries,,9,i=19077,MultiStateDictionaryEntryDiscreteBaseType,Data Access MultiStateDictionaryEntryDBT | Data Access ValueAsDictionaryEntries Property
+1,primary,i=19084,MultiStateDictionaryEntryDiscreteType,Data Access MultiStateDictionaryEntryDBT,10,,,
+1,composible,i=19090,ValueAsDictionaryEntries,,9,i=19084,MultiStateDictionaryEntryDiscreteType,Data Access MultiStateDictionaryEntryDBT
+1,primary,i=19352,LogObjectType,LogObject Base,14,,,
+1,composible,i=19353,GetRecords,LogObject Base,12,i=19352,LogObjectType,LogObject Base
+1,composible,i=19354,InputArguments,Authorization Service Configuration Server,105,i=19353,GetRecords,LogObject Base
+1,composible,i=19355,OutputArguments,,43,i=19353,GetRecords,LogObject Base
+1,composible,i=19356,MaxRecords,,9,i=19352,LogObjectType,LogObject Base
+1,composible,i=19357,MaxStorageDuration,,9,i=19352,LogObjectType,LogObject Base
+1,primary,i=19361,LogRecord,LogObject Base,19,,,
+1,primary,i=19362,BaseLogEventType,LogObject BaseEvent,14,,,
+1,composible,i=19363,ConditionClassId,,9,i=19362,BaseLogEventType,LogObject BaseEvent
+1,composible,i=19364,ConditionClassName,,9,i=19362,BaseLogEventType,LogObject BaseEvent
+1,composible,i=19365,ErrorCode,,9,i=19362,BaseLogEventType,LogObject BaseEvent
+1,composible,i=19366,ErrorCodeNode,,9,i=19362,BaseLogEventType,LogObject BaseEvent
+1,primary,i=19369,LogOverflowEventType,LogObject Overflow,9,,,
+1,composible,i=19744,MinimumSeverity,,9,i=19352,LogObjectType,LogObject Base
+1,primary,i=19745,LogRecordsDataType,LogObject Base,12,,,
+1,primary,i=19746,SpanContextDataType,LogObject TraceContext,13,,,
+1,primary,i=19747,TraceContextDataType,LogObject TraceContext,13,,,
+1,primary,i=19748,NameValuePair,LogObject AdditionalData,13,,,
+1,primary,i=19749,LogRecordMask,LogObject Base,17,,,
+1,composible,i=19750,OptionSetValues,,27,i=19749,LogRecordMask,LogObject Base
+1,primary,i=19814,UsesDataTypeRefinement,Base Info DataTypeRefinement,10,,,
+1,primary,i=19815,HasFieldDescription,Base Info DataTypeRefinement,10,,,
+1,primary,i=19816,HasFieldDescriptionSetMandatory,Base Info DataTypeRefinement,10,,,
+1,primary,i=19817,IsDisabledOptionalField,Base Info DataTypeRefinement,10,,,
+1,primary,i=19818,UsesSubtypeRestriction,Base Info SubtypeRestriction,10,,,
+1,primary,i=19819,AllowedSubtype,Base Info SubtypeRestriction,10,,,
+1,primary,i=19820,DataTypeRefinementType,Base Info DataTypeRefinement,10,,,
+1,primary,i=19822,SubtypeRestrictionType,Base Info SubtypeRestriction,10,,,
+1,primary,i=19846,HasDataTypeRefinement,Base Info SubtypeRestriction,10,,,
+1,primary,i=2,SByte,Base Info Base Types,9,,,
+1,primary,i=20,QualifiedName,Base Info Base Types,9,,,
+1,primary,i=2000,ImageBMP,Base Info Image DataTypes,9,,,
+1,primary,i=2001,ImageGIF,Base Info Image DataTypes,9,,,
+1,primary,i=2002,ImageJPG,Base Info Image DataTypes,9,,,
+1,primary,i=2003,ImagePNG,Base Info Image DataTypes,9,,,
+1,primary,i=2041,BaseEventType,Address Space Events,22,,,
+1,composible,i=2042,EventId,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2043,EventType,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2044,SourceNode,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2045,SourceName,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2046,Time,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2047,ReceiveTime,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2050,Message,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=2051,Severity,,9,i=2041,BaseEventType,Address Space Events
+1,primary,i=21,LocalizedText,Base Info Base Types,9,,,
+1,primary,i=22,Structure,Base Info Base Types,9,,,
+1,primary,i=2299,StateMachineType,Base Info State Machine Instance,11,,,
+1,primary,i=23,DataValue,Base Info Base Types,9,,,
+1,primary,i=2307,StateType,Base Info Finite State Machine Instance,10,,,
+1,composible,i=2308,StateNumber,,9,i=2307,StateType,Base Info Finite State Machine Instance
+1,primary,i=2309,InitialStateType,Base Info Finite State Machine Instance,9,,,
+1,primary,i=2310,TransitionType,Base Info Finite State Machine Instance,10,,,
+1,primary,i=2311,TransitionEventType,Base Info Finite State Machine Instance,12,,,
+1,composible,i=2312,TransitionNumber,,9,i=2310,TransitionType,Base Info Finite State Machine Instance
+1,primary,i=23498,CurrencyUnitType,Base Info Currency,15,,,
+1,primary,i=23513,IOrderedObjectType,Base Info OrderedList,10,,,
+1,composible,i=23517,NumberInList,,9,i=23513,IOrderedObjectType,Base Info OrderedList
+1,primary,i=23518,OrderedListType,Base Info OrderedList,12,,,
+1,composible,i=23519,<OrderedObject>,,11,i=23518,OrderedListType,Base Info OrderedList
+1,composible,i=23521,NumberInList,,9,i=23519,<OrderedObject>,
+1,composible,i=23525,NodeVersion,,9,i=23518,OrderedListType,Base Info OrderedList
+1,primary,i=2365,DataItemType,Data Access DataItems,11,,,
+1,composible,i=2366,Definition,,9,i=2365,DataItemType,Data Access DataItems
+1,composible,i=2367,ValuePrecision,,9,i=2365,DataItemType,Data Access DataItems
+1,primary,i=2368,AnalogItemType,Data Access AnalogItemType,10,,,
+1,composible,i=2369,EURange,,9,i=2368,AnalogItemType,Data Access AnalogItemType
+1,primary,i=2372,DiscreteItemType,Data Access DiscreteItemType,9,,,
+1,primary,i=2373,TwoStateDiscreteType,Data Access TwoState,11,,,
+1,composible,i=2374,FalseState,,9,i=2373,TwoStateDiscreteType,Data Access TwoState
+1,composible,i=2375,TrueState,,9,i=2373,TwoStateDiscreteType,Data Access TwoState
+1,primary,i=23751,UriString,Base Info UriString,9,,,
+1,primary,i=2376,MultiStateDiscreteType,Data Access MultiState,10,,,
+1,composible,i=2377,EnumStrings,,9,i=2376,MultiStateDiscreteType,Data Access MultiState
+1,primary,i=2378,ProgramTransitionEventType,Program Basic,10,,,
+1,composible,i=2379,IntermediateResult,,9,i=2378,ProgramTransitionEventType,Program Basic
+1,primary,i=23903,NumberRange,Base Info NumberRange DataType,13,,,
+1,composible,i=23904,InstrumentNumberRange,,9,i=15318,BaseAnalogType,Data Access BaseAnalogType
+1,composible,i=23905,EUNumberRange,,9,i=15318,BaseAnalogType,Data Access BaseAnalogType
+1,primary,i=23906,AnalogNumberItemType,Data Access AnalogNumberItemType,10,,,
+1,composible,i=23907,EUNumberRange,,9,i=23906,AnalogNumberItemType,Data Access AnalogNumberItemType
+1,primary,i=2391,ProgramStateMachineType,Program Basic,38,,,
+1,primary,i=23918,AnalogNumberUnitRangeType,Data Access AnalogNumberUnitRangeType,10,,,
+1,composible,i=2392,Creatable,,8,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=23927,EUNumberRange,,9,i=23918,AnalogNumberUnitRangeType,Data Access AnalogNumberUnitRangeType
+1,composible,i=2393,Deletable,,9,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2394,AutoDelete,,9,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2395,RecycleCount,,9,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2396,InstanceCount,,8,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2397,MaxInstanceCount,,8,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2398,MaxRecycleCount,,8,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2399,ProgramDiagnostic,,21,i=2391,ProgramStateMachineType,Program Basic
+1,primary,i=24,BaseDataType,Base Info Base Types,7,,,
+1,composible,i=2400,Ready,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2401,StateNumber,,12,i=2400,Ready,
+1,composible,i=2402,Running,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2403,StateNumber,,12,i=2402,Running,
+1,primary,i=24033,ProgramDiagnostic2DataType,Program Basic,23,,,
+1,composible,i=2404,Suspended,,13,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2405,StateNumber,,12,i=2404,Suspended,
+1,composible,i=2406,Halted,,13,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2407,StateNumber,,12,i=2406,Halted,
+1,composible,i=2408,HaltedToReady,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2409,TransitionNumber,,12,i=2408,HaltedToReady,
+1,composible,i=2410,ReadyToRunning,,14,i=2391,ProgramStateMachineType,Program Basic
+1,primary,i=24107,UnsignedRationalNumber,Base Info Rational Number,13,,,
+1,composible,i=2411,TransitionNumber,,12,i=2410,ReadyToRunning,
+1,composible,i=2412,RunningToHalted,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2413,TransitionNumber,,12,i=2412,RunningToHalted,
+1,primary,i=24136,HasStructuredComponent,Base Info Subvariables of Structures,10,,,
+1,primary,i=24137,AssociatedWith,Base Info AssociatedWith,9,,,
+1,composible,i=2414,RunningToReady,,13,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2415,TransitionNumber,,12,i=2414,RunningToReady,
+1,composible,i=2416,RunningToSuspended,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2417,TransitionNumber,,12,i=2416,RunningToSuspended,
+1,composible,i=2418,SuspendedToRunning,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2419,TransitionNumber,,12,i=2418,SuspendedToRunning,
+1,composible,i=2420,SuspendedToHalted,,15,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2421,TransitionNumber,,12,i=2420,SuspendedToHalted,
+1,composible,i=2422,SuspendedToReady,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2423,TransitionNumber,,12,i=2422,SuspendedToReady,
+1,composible,i=2424,ReadyToHalted,,14,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=24244,MaxByteStringLength,,9,i=11575,FileType,Base Info FileType Base
+1,composible,i=2425,TransitionNumber,,12,i=2424,ReadyToHalted,
+1,composible,i=2426,Start,,9,i=2391,ProgramStateMachineType,Program Basic
+1,primary,i=24263,SemanticVersionString,Base Info SemanticVersionString,9,,,
+1,composible,i=2427,Suspend,,9,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2428,Resume,,9,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2429,Halt,,11,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=2430,Reset,,11,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=24372,ReleaseContinuationPoint,LogObject Base,11,i=19352,LogObjectType,LogObject Base
+1,composible,i=24373,InputArguments,,28,i=24372,ReleaseContinuationPoint,LogObject Base
+1,composible,i=24376,TraceContext,,9,i=19362,BaseLogEventType,LogObject BaseEvent
+1,primary,i=25,DiagnosticInfo,Base Info Base Types,9,,,
+1,composible,i=25200,LastModifiedTime,,9,i=11575,FileType,Base Info FileType Base
+1,primary,i=25253,IsExecutableOn,Base Info IsExecutableOn,10,,,
+1,primary,i=25254,Controls,Base Info Controls,10,,,
+1,primary,i=25255,Utilizes,Base Info Utilizes,10,,,
+1,primary,i=25256,Requires,Base Info Requires,10,,,
+1,primary,i=25257,IsPhysicallyConnectedTo,Base Info IsPhysicallyConnectedTo,9,,,
+1,primary,i=25258,RepresentsSameEntityAs,Base Info RepresentsSameEntityAs,9,,,
+1,primary,i=25259,RepresentsSameHardwareAs,Base Info RepresentsSameHardwareAs,9,,,
+1,primary,i=25260,RepresentsSameFunctionalityAs,Base Info RepresentsSameFunctionalityAs,9,,,
+1,primary,i=25261,IsHostedBy,Base Info IsHostedBy,10,,,
+1,primary,i=25262,HasPhysicalComponent,Base Info HasPhysicalComponent,10,,,
+1,primary,i=25263,HasContainedComponent,Base Info HasContainedComponent,10,,,
+1,primary,i=25264,HasAttachedComponent,Base Info HasAttachedComponent,10,,,
+1,primary,i=25265,IsExecutingOn,Base Info IsExecutingOn,10,,,
+1,primary,i=256,IdType,Base Info Base Types,16,,,
+1,primary,i=257,NodeClass,Base Info Base Types,39,,,
+1,primary,i=26,Number,Base Info Base Types,9,,,
+1,primary,i=27,Integer,Base Info Base Types,9,,,
+1,primary,i=2755,StateVariableType,Base Info State Machine Instance,13,,,
+1,composible,i=2756,Id,,9,i=2755,StateVariableType,Base Info State Machine Instance
+1,composible,i=2757,Name,,9,i=2755,StateVariableType,Base Info State Machine Instance
+1,composible,i=2758,Number,,9,i=2755,StateVariableType,Base Info State Machine Instance
+1,composible,i=2759,EffectiveDisplayName,,9,i=2755,StateVariableType,Base Info State Machine Instance
+1,primary,i=2760,FiniteStateVariableType,Base Info Finite State Machine Instance,10,,,
+1,composible,i=2761,Id,,9,i=2760,FiniteStateVariableType,Base Info Finite State Machine Instance
+1,primary,i=2762,TransitionVariableType,Base Info State Machine Instance,14,,,
+1,composible,i=2763,Id,,9,i=2762,TransitionVariableType,Base Info State Machine Instance
+1,composible,i=2764,Name,,9,i=2762,TransitionVariableType,Base Info State Machine Instance
+1,composible,i=2765,Number,,9,i=2762,TransitionVariableType,Base Info State Machine Instance
+1,composible,i=2766,TransitionTime,,9,i=2762,TransitionVariableType,Base Info State Machine Instance
+1,primary,i=2767,FiniteTransitionVariableType,Base Info Finite State Machine Instance,10,,,
+1,composible,i=2768,Id,,9,i=2767,FiniteTransitionVariableType,Base Info Finite State Machine Instance
+1,composible,i=2769,CurrentState,,10,i=2299,StateMachineType,Base Info State Machine Instance
+1,composible,i=2770,LastTransition,,10,i=2299,StateMachineType,Base Info State Machine Instance
+1,primary,i=2771,FiniteStateMachineType,Base Info Finite State Machine Instance | Base Info Available States and Transitions,14,,,
+1,composible,i=2772,CurrentState,,10,i=2771,FiniteStateMachineType,Base Info Finite State Machine Instance | Base Info Available States and Transitions
+1,composible,i=2773,LastTransition,,10,i=2771,FiniteStateMachineType,Base Info Finite State Machine Instance | Base Info Available States and Transitions
+1,composible,i=2774,Transition,,10,i=2311,TransitionEventType,Base Info Finite State Machine Instance
+1,composible,i=2775,FromState,,10,i=2311,TransitionEventType,Base Info Finite State Machine Instance
+1,composible,i=2776,ToState,,10,i=2311,TransitionEventType,Base Info Finite State Machine Instance
+1,primary,i=28,UInteger,Base Info Base Types,9,,,
+1,primary,i=29,Enumeration,Base Info Base Types,10,,,
+1,primary,i=290,Duration,Base Info Base Types,9,,,
+1,primary,i=291,NumericRange,Base Info Base Types,9,,,
+1,primary,i=294,UtcTime,Base Info Base Types,9,,,
+1,primary,i=296,Argument,Base Info Method Argument DataType,16,,,
+1,primary,i=3,Byte,Base Info Base Types,9,,,
+1,primary,i=30,Image,Base Info Image DataTypes,9,,,
+1,primary,i=3065,AlwaysGeneratesEvent,Address Space Events 2,10,,,
+1,primary,i=31,References,Base Info Base Types,7,,,
+1,composible,i=31771,ConditionClassId,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=31772,ConditionClassName,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=31773,ConditionSubClassId,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=31774,ConditionSubClassName,,9,i=2041,BaseEventType,Address Space Events
+1,composible,i=3190,LocalTime,,9,i=2041,BaseEventType,Address Space Events
+1,primary,i=31917,Handle,Base Info Handle DataType,9,,,
+1,primary,i=31918,TrimmedString,Base Info TrimmedString,9,,,
+1,primary,i=32,NonHierarchicalReferences,Base Info Base Types,9,,,
+1,primary,i=32407,HasKeyValueDescription,Base Info HasKeyValueDescription,10,,,
+1,primary,i=32434,AnnotationDataType,Data Access Quantities Base,14,,,
+1,primary,i=32435,LinearConversionDataType,Data Access Alternative Units,15,,,
+1,primary,i=32436,ConversionLimitEnum,Data Access Alternative Units,15,,,
+1,composible,i=32437,EnumStrings,,21,i=32436,ConversionLimitEnum,Data Access Alternative Units
+1,primary,i=32438,QuantityDimension,Data Access Quantities Base,19,,,
+1,primary,i=32439,SyntaxReferenceEntryType,Data Access Quantity Syntax Reference,10,,,
+1,composible,i=32441,CommonName,,9,i=32439,SyntaxReferenceEntryType,Data Access Quantity Syntax Reference
+1,primary,i=32442,UnitType,Data Access Quantities Base,12,,,
+1,composible,i=32443,Symbol,,9,i=32442,UnitType,Data Access Quantities Base
+1,composible,i=32445,UnitSystem,,9,i=32442,UnitType,Data Access Quantities Base
+1,composible,i=32446,Discipline,,9,i=32442,UnitType,Data Access Quantities Base
+1,primary,i=32447,ServerUnitType,Data Access Quantities Base,12,,,
+1,composible,i=32452,AlternativeUnits,,10,i=32447,ServerUnitType,Data Access Quantities Base
+1,composible,i=32461,ConversionLimit,,9,i=32447,ServerUnitType,Data Access Quantities Base
+1,composible,i=32462,CoherentUnit,,11,i=32447,ServerUnitType,Data Access Quantities Base
+1,composible,i=32463,Symbol,,9,i=32462,CoherentUnit,
+1,composible,i=32465,UnitSystem,,9,i=32462,CoherentUnit,
+1,primary,i=32467,AlternativeUnitType,Data Access Alternative Units,12,,,
+1,composible,i=32472,LinearConversion,,9,i=32467,AlternativeUnitType,Data Access Alternative Units
+1,composible,i=32473,MathMLConversion,,9,i=32467,AlternativeUnitType,Data Access Alternative Units
+1,composible,i=32474,MathMLInverseConversion,,9,i=32467,AlternativeUnitType,Data Access Alternative Units
+1,primary,i=32475,QuantityType,Data Access Quantities Base,14,,,
+1,composible,i=32476,Symbol,,9,i=32475,QuantityType,Data Access Quantities Base
+1,composible,i=32478,Annotation,,9,i=32475,QuantityType,Data Access Quantities Base
+1,composible,i=32479,ConversionService,,9,i=32475,QuantityType,Data Access Quantities Base
+1,composible,i=32480,Dimension,,9,i=32475,QuantityType,Data Access Quantities Base
+1,composible,i=32481,ServerUnits,,10,i=32475,QuantityType,Data Access Quantities Base
+1,composible,i=32482,<ServerUnit>,,12,i=32481,ServerUnits,
+1,composible,i=32483,Symbol,,9,i=32482,<ServerUnit>,
+1,composible,i=32485,UnitSystem,,9,i=32482,<ServerUnit>,
+1,composible,i=32496,ConversionLimit,,9,i=32482,<ServerUnit>,
+1,primary,i=32558,HasEngineeringUnitDetails,Data Access Quantities Base,10,,,
+1,primary,i=32559,HasQuantity,Data Access Quantities Base,10,,,
+1,composible,i=32587,<AlternativeUnit>,,11,i=32452,AlternativeUnits,
+1,composible,i=32588,Symbol,,9,i=32587,<AlternativeUnit>,
+1,composible,i=32590,UnitSystem,,9,i=32587,<AlternativeUnit>,
+1,primary,i=33,HierarchicalReferences,Base Info Base Types,10,,,
+1,primary,i=34,HasChild,Base Info Base Types,10,,,
+1,primary,i=35,Organizes,Base Info Base Types,10,,,
+1,primary,i=36,HasEventSource,Address Space Source Hierarchy,10,,,
+1,primary,i=37,HasModellingRule,Base Info Base Types,10,,,
+1,composible,i=3720,Id,,9,i=2769,CurrentState,
+1,composible,i=3724,Id,,9,i=2770,LastTransition,
+1,composible,i=3728,Id,,9,i=2772,CurrentState,
+1,composible,i=3732,Id,,9,i=2773,LastTransition,
+1,composible,i=3746,Id,,9,i=2775,FromState,
+1,composible,i=3750,Id,,9,i=2776,ToState,
+1,composible,i=3754,Id,,9,i=2774,Transition,
+1,primary,i=38,HasEncoding,Base Info Base Types,10,,,
+1,composible,i=3830,CurrentState,,11,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=3831,Id,,9,i=3830,CurrentState,
+1,composible,i=3833,Number,,9,i=3830,CurrentState,
+1,composible,i=3835,LastTransition,,12,i=2391,ProgramStateMachineType,Program Basic
+1,composible,i=3836,Id,,9,i=3835,LastTransition,
+1,composible,i=3838,Number,,9,i=3835,LastTransition,
+1,composible,i=3839,TransitionTime,,9,i=3835,LastTransition,
+1,composible,i=3840,CreateSessionId,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3841,CreateClientName,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3842,InvocationCreationTime,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3843,LastTransitionTime,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3844,LastMethodCall,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3845,LastMethodSessionId,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3846,LastMethodInputArguments,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3847,LastMethodOutputArguments,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3848,LastMethodCallTime,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3849,LastMethodReturnStatus,,9,i=2399,ProgramDiagnostic,
+1,composible,i=3850,FinalResultData,,10,i=2391,ProgramStateMachineType,Program Basic
+1,primary,i=4,Int16,Base Info Base Types,9,,,
+1,primary,i=40,HasTypeDefinition,Base Info Base Types,10,,,
+1,primary,i=41,GeneratesEvent,Address Space Events 2,10,,,
+1,primary,i=44,Aggregates,Base Info Base Types,10,,,
+1,primary,i=45,HasSubtype,Base Info Base Types,10,,,
+1,primary,i=46,HasProperty,Base Info Base Types,10,,,
+1,primary,i=47,HasComponent,Base Info Base Types,10,,,
+1,primary,i=48,HasNotifier,Address Space Notifier Hierarchy,10,,,
+1,primary,i=49,HasOrderedComponent,Base Info HasOrderedComponent,10,,,
+1,primary,i=5,UInt16,Base Info Base Types,9,,,
+1,primary,i=50,Decimal,Base Info Decimal DataType,9,,,
+1,primary,i=51,FromState,Base Info Finite State Machine Instance,10,,,
+1,primary,i=52,ToState,Base Info Finite State Machine Instance,10,,,
+1,primary,i=53,HasCause,Base Info Finite State Machine Instance,10,,,
+1,primary,i=54,HasEffect,Base Info Finite State Machine Instance,10,,,
+1,primary,i=58,BaseObjectType,Base Info Base Types,7,,,
+1,primary,i=6,Int32,Base Info Base Types,9,,,
+1,primary,i=61,FolderType,Base Info Base Types,9,,,
+1,primary,i=62,BaseVariableType,Base Info Base Types,7,,,
+1,primary,i=63,BaseDataVariableType,Base Info Base Types,9,,,
+1,primary,i=68,PropertyType,Base Info Base Types,9,,,
+1,primary,i=7,UInt32,Base Info Base Types,9,,,
+1,composible,i=7591,EnumStrings,,24,i=256,IdType,Base Info Base Types
+1,primary,i=7594,EnumValueType,Base Info Base Types,14,,,
+1,primary,i=76,DataTypeEncodingType,Base Info Base Types,9,,,
+1,primary,i=77,ModellingRuleType,Base Info Base Types,9,,,
+1,primary,i=78,Mandatory,Base Info Base Types,9,,,
+1,primary,i=8,Int64,Base Info Base Types,9,,,
+1,primary,i=80,Optional,Base Info Base Types,9,,,
+1,primary,i=884,Range,Base Info Range DataType,13,,,
+1,primary,i=887,EUInformation,Base Info EUInformation,15,,,
+1,primary,i=8912,TimeZoneDataType,Base Info LocalTime,13,,,
+1,primary,i=9,UInt64,Base Info Base Types,9,,,
+1,primary,i=97,DataTypeDefinition,Address Space DataTypeDefinition Attribute,10,,,
+1,primary,i=98,StructureType,Address Space DataTypeDefinition Attribute,17,,,
+1,primary,i=99,StructureDefinition,Address Space DataTypeDefinition Attribute,15,,,
+2,non,i=11856,AuditProgramTransitionEventType,Program Auditing,14,i=2422,SuspendedToReady,
+2,composible,i=11875,TransitionNumber,,9,i=11856,AuditProgramTransitionEventType,Program Auditing
+2,non,i=13354,<FileDirectoryName>,,13,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+2,composible,i=13355,CreateDirectory,,10,i=13354,<FileDirectoryName>,
+2,composible,i=13356,InputArguments,,28,i=13355,CreateDirectory,
+2,composible,i=13357,OutputArguments,,28,i=13355,CreateDirectory,
+2,composible,i=13358,CreateFile,,10,i=13354,<FileDirectoryName>,
+2,composible,i=13359,InputArguments,,43,i=13358,CreateFile,
+2,composible,i=13360,OutputArguments,,43,i=13358,CreateFile,
+2,composible,i=13363,MoveOrCopy,,10,i=13354,<FileDirectoryName>,
+2,composible,i=13364,InputArguments,,73,i=13363,MoveOrCopy,
+2,composible,i=13365,OutputArguments,,28,i=13363,MoveOrCopy,
+2,non,i=13366,<FileName>,,19,i=13353,FileDirectoryType,Base Info FileDirectoryType Base
+2,composible,i=13367,Size,,9,i=13366,<FileName>,
+2,composible,i=13368,Writable,,9,i=13366,<FileName>,
+2,composible,i=13369,UserWritable,,9,i=13366,<FileName>,
+2,composible,i=13370,OpenCount,,9,i=13366,<FileName>,
+2,composible,i=13372,Open,,10,i=13366,<FileName>,
+2,composible,i=13373,InputArguments,,28,i=13372,Open,
+2,composible,i=13374,OutputArguments,,28,i=13372,Open,
+2,composible,i=13375,Close,,9,i=13366,<FileName>,
+2,composible,i=13376,InputArguments,,28,i=13375,Close,
+2,composible,i=13377,Read,,10,i=13366,<FileName>,
+2,composible,i=13378,InputArguments,,43,i=13377,Read,
+2,composible,i=13379,OutputArguments,,28,i=13377,Read,
+2,composible,i=13380,Write,,9,i=13366,<FileName>,
+2,composible,i=13381,InputArguments,,43,i=13380,Write,
+2,composible,i=13382,GetPosition,,10,i=13366,<FileName>,
+2,composible,i=13383,InputArguments,,28,i=13382,GetPosition,
+2,composible,i=13384,OutputArguments,,28,i=13382,GetPosition,
+2,composible,i=13385,SetPosition,,9,i=13366,<FileName>,
+2,composible,i=13386,InputArguments,,43,i=13385,SetPosition,
+2,composible,i=17718,Delete,,9,i=13354,<FileDirectoryName>,
+2,composible,i=17719,InputArguments,,28,i=17718,Delete,
+2,composible,i=19305,StatusCodeId,,9,i=2127,AuditUpdateMethodEventType,Auditing Method | Auditing Method Output
+2,composible,i=19306,OutputArguments,,9,i=2127,AuditUpdateMethodEventType,Auditing Method | Auditing Method Output
+2,composible,i=19811,ClientApplicationUri,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,non,i=19821,<FieldDescription>,,9,i=19820,DataTypeRefinementType,Base Info DataTypeRefinement
+2,non,i=19823,<FieldDescription>,,9,i=19822,SubtypeRestrictionType,Base Info SubtypeRestriction
+2,non,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method,23,,,
+2,composible,i=2053,ActionTimeStamp,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,composible,i=2054,Status,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,composible,i=2055,ServerId,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,composible,i=2056,ClientAuditEntryId,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,composible,i=2057,ClientUserId,,9,i=2052,AuditEventType,Auditing Connections | Auditing NodeManagement | Auditing History Services | Auditing Write | Auditing Method
+2,non,i=2127,AuditUpdateMethodEventType,Auditing Method | Auditing Method Output,18,,,
+2,composible,i=2128,MethodId,,9,i=2127,AuditUpdateMethodEventType,Auditing Method | Auditing Method Output
+2,composible,i=2129,InputArguments,,9,i=2127,AuditUpdateMethodEventType,Auditing Method | Auditing Method Output
+2,non,i=2132,BaseModelChangeEventType,Base Info Model Change,9,,,
+2,non,i=2133,GeneralModelChangeEventType,Base Info Model Change General,10,i=23518,OrderedListType,Base Info OrderedList
+2,composible,i=2134,Changes,,9,i=2133,GeneralModelChangeEventType,Base Info Model Change General
+2,non,i=2315,AuditUpdateStateEventType,Auditing Base,15,,,
+2,composible,i=2777,OldStateId,,9,i=2315,AuditUpdateStateEventType,Auditing Base
+2,composible,i=2778,NewStateId,,9,i=2315,AuditUpdateStateEventType,Auditing Base
